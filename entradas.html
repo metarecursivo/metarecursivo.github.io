@@ -1,0 +1,61 @@
+---
+title: Linear
+layout: default
+---
+
+<!-- Main -->
+
+	<div id="main">
+		<div class="container">
+			<div class="row">
+				{% include sidebar.html %}
+					<div id="content" class="8u skel-cell-important">
+						{% for post in site.posts offset: 0 limit: 4 %}
+						<div class="row">
+							<section class="15u -0u">
+								<a href="{{ site.prefix }}{{ post.url }}" class="image full"><img src="/assets/{{ post.featured }}" alt=""></a>
+								<header>
+									<h2>{{ post.title }}</h2>
+								</header>
+								{{ post.excerpt }}
+								<a href="{{ site.prefix }}{{ post.url }}" class="button button-style1">Read More</a>
+							</section>
+						</div>
+						{% endfor %}
+					</div>
+
+
+
+<!-- Content
+				<div id="content" class="8u skel-cell-important">
+					<section>
+						<header>
+							<h2>Artículos</h2>
+												<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
+											</header>
+
+							<ul class="post-list">
+								{% for post in site.posts %}
+								<section>
+									<li>
+										<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+											<br>
+				<header>
+					<br>
+					<h2 style="color:#069"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+				</header>
+				<p>{{ post.excerpt }}</p>
+				</section>
+				<br>
+									</li>
+								{% endfor %}
+							</ul>
+				</div>
+-->
+
+
+
+			</div>
+		</div>
+	</div>
+<!-- /Main -->
