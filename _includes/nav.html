@@ -5,6 +5,7 @@
 			{% assign current = page.url | downcase | split: '/' %}
 			<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="/index.html">Homepage</a></li>
 			<li {% if current[1] == 'entradas.html' %}class='current'{% endif %}><a href="/entradas.html">Entradas</a></li>
+			<li {% if current[1] == 'sekiro.html' %}class='current'{% endif %}><a href="/sekiro/index.html">Sekiro</a></li>
 			
 
 		</ul>
@@ -12,7 +13,7 @@
 </div>
 
 <!--
-<li {% if current[1] == 'sekiro.html' %}class='current'{% endif %}><a href="/sekiro/index.html">Sekiro</a></li>
+
 <li {% if current[1] == 'papers.html' %}class='current'{% endif %}><a href="/papers.html">Papers</a></li>
 <li {% if current[1] == 'clases.html' %}class='current'{% endif %}><a href="/clases.html">Clases</a></li>
 
