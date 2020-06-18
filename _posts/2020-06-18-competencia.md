@@ -1,5 +1,5 @@
 ---
-title: Sony y Xbox. Competencia en precios. 
+title: # Sony y Xbox. Competencia en precios. #
 featured: images/frac1.jpg
 layout: post
 ---
