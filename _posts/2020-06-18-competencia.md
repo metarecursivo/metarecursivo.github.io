@@ -3,33 +3,30 @@ title: ¿Quién elije primero?
 featured: images/frac1.jpg
 layout: post
 ---
+
+<style TYPE="text/css">
+code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
+</style>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] // removed 'code' entry
+    }
+});
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML-full"></script>
+
 <div style="text-align: justify"> 
-<strong>Pod 153</strong>: Warning! Massive Spoilers ahead! (Nier y Nier Automata son analizados teniendo en cuenta que han sido ya completados).
-</div> 
 
-<br>
 
-<div style="text-align: right"> 
-<blockquote> 
-A future is not given to you. It is something you must take for yourself
-<br>
-<strong>Pod 042</strong>
-</blockquote> 
-</div> 
-
-<br>
-
-<div style="text-align: justify"> 
-
-Cuando acabé Nier Automata no podía quitarme de la cabeza la sensación de que le faltaba algo. Es una sensación que se repite tres veces (o cuatro, o cinco, si contamos hasta el final E) al acabar cualquiera de sus rutas principales.
-
-La estructura del juego nos recuerda en cierto modo al Nier original, utilizando la repetición de ciertas partes desde puntos de vista diferentes para ofrecer una visión coral de una realidad compleja en donde la información está distribuida de manera heterogénea entre los personajes. Cada parte, por tanto, acaba siendo un trocito al que poder comparar con Nier y, aunque hay similitudes, hay también dos claras diferencias (una de forma y otra de fondo), que pueden hacernos añorar lo que pudo haber sido el Nier original.
-
-La estructura formal de las rutas da un pequeño giro entre los dos juegos. Si en el primero teníamos una primera parte que servía de introducción, y una segunda parte que repetíamos dos veces bajo dos puntos de vista diferentes, en Nier Automata será la primera parte la que repetiremos bajo dos puntos de vista, esta vez mucho mejor trabajada al permitirnos no solo manejar a un segundo personaje, si no ver eventos alternativos o paralelos a los que veíamos la primera vez. La segunda parte (ruta C) se trata de un colofón final que nos lleva hacia el final del juego.
-
-Debo decir como apunte extra que Nier me parece una absoluta maravilla con errores importantes que achaco a la falta de tiempo o dinero. Me faltó no poder manejar a Kainé durante la segunda versión de la segunda parte, algo que, a la vista de Nier Automata, fue posiblemente mas un fallo técnico que artístico. Un Nier en donde manejases a Nier, Kainé y Emil en cada una de sus repeticiones sería directamente una obra maestra.
-
-El cambio en la idea de fondo me parece mucho más interesante. En Nier a los diez minutos de empezar se nos plantea una cuestión tremenda que nos dejará pensando durante todo el juego sobre qué narices está pasando: Tras la introducción pasan 3.000 años y los personajes que llevábamos durante esta no solo no han cambiado si no que parecen llevar una vida… vamos a decir “normal”. Nada más comenzar por tanto somos conscientes de que existe un misterio que además no somos capaces a priori de descifrar. Esto sirve de perfecta zanahoria para obligarnos a llegar hasta el final e intentar descubrir cómo es posible. La repetición de la segunda parte con la capacidad de escuchar a las sombras gracias a Kainé le da un giro perfecto que casi valdría para justificar el juego entero.
+Prueba $x^2$
 
 </div> 
 
