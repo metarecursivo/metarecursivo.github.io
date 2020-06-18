@@ -1,5 +1,5 @@
 ---
-title: Competencia en precios en videoconsolas.
+title: ¿Quién elije primero?
 featured: images/frac1.jpg
 layout: post
 ---
