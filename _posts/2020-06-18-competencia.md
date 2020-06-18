@@ -1,5 +1,5 @@
 ---
-title: Sony y Microsoft. Competencia en precios.
+title: Competencia en precios en videoconsolas.
 featured: images/frac1.jpg
 layout: post
 ---
