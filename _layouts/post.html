@@ -3,9 +3,11 @@ layout: default
 ---
 <!-- Main -->
 	<div id="main">
-		<div id="content" class="container">
-			<div class="row">
-				<section class="8u -2u">
+		<div class="container">
+		<div class="row">
+			{% include sidebar.html %}
+			<div id="content" class="8u skel-cell-important">
+				<section>
 					<header>
 						<h2><center>{{ page.title }}</center></h2>
 						<br>
@@ -14,5 +16,6 @@ layout: default
 					{{ page.content }}
 				</section>
 			</div>
+		</div>
 		</div>
 	</div>
