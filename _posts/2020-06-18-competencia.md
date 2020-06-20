@@ -38,9 +38,11 @@ Prueba $x^2$
 
 El año 2020 va a estar marcado por cientos de eventos que se engloban entre lo terrorífico y la crisis existencial. Saldrán, además, nuevas consolas. Sony con su PlayStation5 y Microsoft con su XBox Series X que parecen querer dejarnos para final de año un pequeño regalito que nos quite este mal sabor de boca que nos está dejando un universo enfurecido. 
 <br>
+ 
 <br>
 Conocemos el diseño de ambas consolas, ciertos elementos técnicos e incluso algunos de los juegos que podremos disfrutar durante estas primeras navidades con olor a generación 4K. Pero no sabemos el precio. Lo intuimos. Lo tememos. Nos empieza a doler la cartera. Alguna hucha que otra ya se ha empezado a llenar. Pero la incertidumbre sobre el precio sigue estando presente. Demasiadas variables y demasiado en juego parecen estar forzando a las compañías a retrasar la decisión sobre un número de 3 cifras que conoceremos en los próximos meses. 
 <br>
+ 
 <br>
 A todo esto viene el conocido juego del ratón y el gato. Sony está esperando a Microsoft. Y Microsoft está esperando a Sony. Pero, ¿Por qué?
 <br>
