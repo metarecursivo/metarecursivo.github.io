@@ -36,141 +36,30 @@ Prueba $x^2$
 
 <div style="text-align: justify"> 
 
-En Nier Automata en cambio, no hay enigma inicial. El juego transcurre como una serie de acontecimientos sin pausa pero sin misterio. O al menos sin que tengamos consciencia de ese misterio. No nos pegaremos todo el juego recordando que hay algo que no tiene sentido o, más personalmente, no jugamos por “entender” si no por “ver qué ocurre ahora”. Las elucubraciones duran poco y vienen muy de continuo, por lo que no aparece una “gran revelación final” que como un Deus Ex Maquina nos explique todo de golpe. Todo se va explicando poco a poco. Me hizo mucha gracia que durante el juego estuviera reflexionando sobre cual podría ser la “gran revelación final” y justo esa revelación iba siendo descubierta durante los siguientes tramos del juego. Me ocurrió unas dos o tres veces. Todo se deja más como una sencilla realidad sin mucho significado, sin darle mucho peso, para que los pobres personajes (y el jugador) se vayan dando cuenta de cómo la acción tiene cada vez menos sentido.
+El año 2020 va a estar marcado por cientos de eventos que se engloban entre lo terrorífico y la crisis existencial. Saldrán, además, nuevas consolas. Sony con su PlayStation5 y Microsoft con su XBox Series X que parecen querer dejarnos para final de año un pequeño regalito que nos quite este mal sabor de boca que nos está dejando un universo enfurecido. 
+Conocemos el diseño de ambas consolas, ciertos elementos técnicos e incluso algunos de los juegos que podremos disfrutar durante estas primeras navidades con olor a generación 4K. Pero no sabemos el precio. Lo intuimos. Lo tememos. Nos empieza a doler la cartera. Alguna hucha que otra ya se ha empezado a llenar. Pero la incertidumbre sobre el precio sigue estando presente. Demasiadas variables y demasiado en juego parecen estar forzando a las compañías a retrasar la decisión sobre un número de 3 cifras que conoceremos en los próximos meses. 
+A todo esto viene el conocido juego del ratón y el gato. Sony está esperando a Microsoft. Y Microsoft está esperando a Sony. Pero, ¿Por qué?
+Como muchas cosas en esta vida la explicación es bastante sencilla pero, como economista que soy, me voy a encargar en este artículo de rodearla de palabraría y un modelito matemático que nos permita hacer algo más serio ese “análisis” de por qué es mejor esperar a decidir el precio. 
+La información es poder. No es difícil entender por tanto que es mejor decidir con información en la mano que sin ella. Conocer el precio que va a poner tu competidor te deja en bandeja el intentar superarle. Y esperar a que tu competidor muestre sus cartas suele ser una estrategia nada desdeñable. Dicho grosso modo, la empresa X está esperando a que la empresa Y diga su precio para poder poner uno más barato (o para no pasarse de largo) e intentar robar una parte del pastel que le sería más difícil conseguir si ambas tuvieran que decidir y decir el precio con los ojos vendados.
+Es curioso, no obstante, que el que elija segundo sea el que salga ganando en este duelo, sobre todo cuando casi todo estudiante de economía acaba sus estudios microeconómicos viendo el modelo de Stackelberg, un modelo en donde el que elije primero, obtiene más beneficio. La diferencia, como siempre es importante recalcar, es que los modelos son abstracciones que se nutren de unas hipótesis iniciales. Si estas no se cumplen, el modelo no nos vale para describir la microrealidad que estamos estudiando. En este caso el modelo de Stackelberg se refiere a la competencia empresarial en cantidades de un producto homogéneo. Esto es: Ambas empresas hacen un producto similar que compartirán el mismo precio en un mercado en dónde los consumidores no distinguen entre empresas. En este contexto, la primera empresa que consiga “copar” el mercado se va a llevar el gato al agua. 
+La realidad es que la competencia entre Sony y Microsoft se parecen a esos modelos iniciales como un huevo a una castaña. La diferencia fundamental es que ambas empresas están diferenciadas, en mayor o menor grado, y eso implica que aunque exista una cierta sustituibilidad entre los productos que vendan una y otra, no son exactamente iguales. Esa diferenciación implica que cada empresa debe elegir un precio y dejar que los consumidores decidan en base a ese precio cuantas unidades específicas de los productos de esa empresa comprar. 
+¿Cómo podemos crear un modelo que recoja esta competencia oligopolística (entre dos empresas) con un producto diferenciado que va a competir en precios? Como todo modelo, nos vamos a dejar muchas cosas por el camino, pero intentaremos destacar lo más importante.
+Primero, vamos a utilizar unas funciones de demanda con las que he trabajado bastante que son las de Dixit-Stiglitz. Éstas se basan en el concepto de “competencia monopolística”, en donde se intenta unir el hecho de que empresas diferentes con marcas específicas (y por tanto con el monopolio de la identidad de su producto) compiten por satisfacer necesidades concretas o similares (con cierto grado de sustituibilidad entre los productos).
+Supondremos que existen dos empresas (empresa 1 y empresa 2). La cantidad de demanda (q) de cada una de las empresas se puede describir de la siguiente manera:
+Lo primero que voy a quitarme de en medio para hacer un poco más simple el análisis es el valor de sigma. Este parámetro mide precisamente el grado de diferenciación del producto. Va desde 1 hasta infinito. Es el valor de la elasticidad de demanda o del grado de homogeneidad del producto.
+Si el valor fuera muy alto, significaría que el producto es muy elástico y homogéneo, es decir, un consumidor que tenga que elegir entre las dos empresas elegirá siempre el producto más barato porque, por lo demás, le parecen idénticos.  
+Si el valor fuera muy bajo, el producto sería menos elástico y, por tanto, más diferenciado. En este caso que una empresa suba el precio va a hacerle perder clientes, pero no muchos, porque tiene una gran parte del mercado que “va a caer al pozo” y comprar su producto siempre y cuando el precio no se vaya de madre. Su producto es tan diferenciado que el que tu producto pueda ser más caro no va a hacer directamente que los clientes salten a comprar los productos de la competencia. 
+Por descontado, las empresas no solo eligen cuánto producir y a qué precio poner sus productos en las tiendas. La variable de la diferenciación es crucial para crear ese mercado menos elástico sobre el que poder poner unos precios más altos. En el tema que nos toca, las videoconsolas, dos claros ejemplos me vienen a la mente: La potencia y los exclusivos. Pueden diferenciarse intentando meterle más teraflops (la variable de moda en esta entrada a la nueva generación) y además Sony y Microsoft disponen de estudios propios y externos que hacen juegos específicos para sus consolas. En este contexto, comprar la más barata ya no es lo más importante, si lo que quieres es jugar a Bloodborne 2 o al nuevo Halo. 
+En lo que concierne al modelo, vamos a suponer para hacer las cuentas más simples que el valor es de 2. De esta forma los exponentes quedan más sencillos (después relajaré un poco este supuesto para que podamos ver algunas extensiones interesantes). En cualquier caso, por si a alguno le interesa, la conclusión más importante del parámetro sigma es que, contra más bajo sea, mayor poder monopolístico tendrán las empresas (más importante será el concepto de marca) y mayor serán los precios y los beneficios. Hasta Desatranques Jaen conoce bien el poder de la diferenciación del producto.
+La otra parte que nos queda (mu Y) hace referencia al dinero que la gente se va a gastar en videoconsolas. Contra mayor sea la renta de la gente, o más % de su gasto quieran destinar a gastar en videoconsolas (que como es un “bien de lujo” crecerá también conforme crezca la renta), más consolas venderán. Algo bastante obvio que luego realmente no va afectar al precio óptimo. 
+Vale. ¿Qué hace una empresa para optimizar su producto? Coge su función de beneficio y la optimiza. Si el producto es homogéneo, el precio va a venir determinado por un mercado al que el producto de cada empresa le es indiferente, y lo que la empresa puede decidir es cuánta cantidad quiere producir y enviar al mercado. Si es diferenciado, como en este caso, la empresa tiene un cierto poder de decisión sobre su precio, permitiéndose poner un precio particular a su producto. Supondremos, pues es el origen del análisis de este artículo, que la empresa elije el precio que maximiza su beneficio.
+¿Cuál es su beneficio?
+Pues ingresos menos costes, claro. Ah, pero para el carro que la cosa no es tan simple. Obviamente la empresa incurrirá en unos costes para la fabricación de cada producto, que supondremos que son constantes e iguales a c. Supondremos, además, que el coste es el mismo para cada una de las empresas. Aquí ya empezamos con problemas puesto que es posible que por motivos técnicos una tenga unos costes de fabricación ligeramente superiores a la otra. De nuevo, al no disponer de información correcta sobre este tema, lo mejor que puedo hacer es intentar no complicarlo más de la cuenta poniendo costes diferentes que, de ocurrir, tampoco serán tan distintos (Siempre podemos al final afinar un poco complicando algo más el modelo).
+En cuanto a ingresos, la cosa es algo más peliaguda. Aquí entramos en otra estrategia de diseño en la que la empresa puede incidir, dado que la consola como tal no es un bien que permita satisfacer una necesidad de forma directa, si no a través de los juegos que se compren y jueguen con ella. Esto es, el ingreso potencial de una consola vendida no es únicamente su precio, si no el flujo de beneficios que pueda conseguir extraer de los consumidores que la hayan comprado. Beneficios por juegos first-party, gamepasses, pspluses… Esto permite que en el mercado el precio de las máquinas pueda incluso ser inferior al coste de fabricación, ya que puede expandir mucho más su mercado y recuperar esas perdidas en la venta de otros servicios. PlayStation y Xbox son bienes sustitutivos pero, dentro de cada una de las marcas, los servicios y productos de cada una de ellas son bienes complementarios. Si los juegos de una de las consolas fueran de serie más baratos, por ejemplo si tuviéramos en cuenta el GamePass de Xbox, a lo mejor admitiría que la consola fuera un pelín mas cara, o viceversa. 
+Por ello, vamos a suponer que los beneficios son iguales a: El precio por consola vendida – los costes por consola vendida + Beneficios potenciales futuros por consola vendida:
 
-Se podría argumentar que el juego trata de hacer cosas sin sentido. O, mejor dicho, que trata de buscarle el sentido a las cosas que hacemos.
-
-Por que si de algo trata Nier Autómata es, sobre todo, de esta búsqueda de sentido. De la futilidad de luchar contra su inexistencia y la necesidad de luchar contra nosotros mismos para encontrarla.
-
-Esta búsqueda activa contrasta con la de las máquinas, cuya evolución intelectual parece moverlas en una dirección bastante clara: Escapar de la guerra. La inteligencia que van desarrollando les permite entender poco a poco lo absurdo de una situación en donde la lucha carece de sentido: La inteligencia va unida de la paz.
-
-También podríamos hablar genéricamente de conflicto, elemento que ya aparecía en el primer Nier y que el propio Yoko Taro ha destacado en bastantes entrevistas como uno de sus focos principales: La idea de la generación de un conflicto o guerra entre dos bandos incapaces de entenderse en donde cada uno tiene “su razón” (su visión, su pieza de información incompleta). En ambos casos vemos la clara idea de querer cargarse una “razón” objetiva y superior. De existir, la realidad y el sentido son subjetivos. Tan importante y real es la voluntad y la justificación para la batalla de un bando como del otro. Si bien venimos de una época donde es bastante normal poblar las tramas de claroscuros (la escala de grises ha superado la dicotomía del blanco y negro, quizá incluso podríamos hablar de la aparición de la escala de colores), no es tan común hacernos ver que ni siquiera hay un gris más oscuro que el otro, en algunas circunstancias.
-
-</div> 
-
-<br>
-
-<img src="/assets/images/Nier5.jpg" style="width: 100%; height: 100%" hspace="20">
-
-<div style="text-align: justify"> 
-
-Esta cuasi inexistente razón aparente para la guerra se engrandece aun más en este juego al no tener claras desde el principio las diferencias entre bandos. Sí, androides luchan desde el lado de los humanos, y máquinas luchan por el bando de los aliens, y si bien podemos entender la animadversión derivada del deseo de dominación de la Tierra por parte de ambos seres, mucho más estúpida es la idea de “odio`’ entre dos entidades creadas “artificialmente”.
-
-En Nier la animadversión comienza en tu cabeza al ver a unas sombras querer atacar a una niña indefensa, creando probablemente la excusa perfecta para no sentirnos mal mientras reventamos a los monstruos. En Nier Automata empezamos con una set piece perfecta en donde nos batimos a tiros y ostias nada más empezar con toda clase de maquinas sin saber realmente muy bien por qué debemos hacerlo.
-
-Maquinas y androides, al igual que aliens y humanos, son dos versiones de una misma idea. Seres vivos utilizando seres artificiales para luchar por ellos. Si bien partimos de una relación vertical inicial dentro de cada bando (unos, los seres artificiales, son construidos por otros), esta se desvirtúa rápidamente al no ver ni rastro ni de aliens ni de humanos (al menos al principio), y al entender que parte del comportamiento de los seres artificiales se va pareciendo cada vez más al propio comportamiento humano (poco sabemos del comportamiento alien).
-
-La única razón real para la guerra entre androides y maquinas (que los mandos superiores así la indican), se desdibuja totalmente al ver, en primer lugar, que los aliens llevan ya mucho tiempo mordiendo el polvo y que, en segundo lugar, los humanos probablemente lleven aun más tiempo sin estar en el lado de los vivos. Una vez que nos damos cuenta de la ausencia de la raíz de origen del conflicto bélico, ¿qué sentido sigue teniendo una guerra entre, podríamos decir, iguales? Ninguna, claro.
-
-Pero esta sinrazón no aparece solo al perecer una realidad previamente existente (lo haría entonces en un marco objetivo basado en lo tangible). Lo único que existía en nuestra mente era una serie de ideas construidas que sustentaban moralmente esa guerra (que en algún sitio existen dos bandos con ideas confrontadas en donde mi bando tiene la razón). Al desaparecer el sustento de esta serie de ideas (los bandos se desvanecieron hace siglos) lo que podemos observar es la autentica cruda realidad tal y como había sido durante todo este tiempo. Una caída del velo que sustentaba la animadversión que daba sentido a la vida de ambos bandos. Muerte y destrucción. No es un cambio en la guerra, si no en nuestra percepción de la guerra. Una herramienta única para llegar a entender lo inútil y el sinsentido que desprenden los conflictos armados al ser capaces de observar un presente con otros ojos.
-
-Dejar de creer en la guerra tiene además un efecto total sobre la percepción que los androides y las máquinas tienen sobre si mismos. La guerra no era algo en lo que participaban, como si tuvieran la capacidad de elegir y el destino les hubiera llevado hacia ese camino. La guerra era lo único que fundamentaba la propia existencia de unas máquinas y unos androides que habían nacido para matar. Uno puede llegar a preguntarse, ¿Es licito en ese caso la guerra, si es la única opción de fundamentar la existencia de unos seres que sienten? Vivir para no morir. Vivir para matar.
-
-Nier Automata nos permite observar qué ocurre con las máquinas cuando se produce este choque. Cuando la guerra deja de tener sentido y, a la vez, era lo único que les daba sentido. Comienza una búsqueda particular en pos de algo más. Algo que sea capaz de sustituir su razón de ser. La “Network” que mantenía a raya un pensamiento único se rompe, en principio como mecanismo evolutivo: Una forma de permitir la diferenciación en el comportamiento de las máquinas y en donde acaban dividiéndose en búsqueda de sus propios objetivos, metas y deseos.
-
-</div> 
-
-<br>
-<div style="text-align: right"> 
-<blockquote> 
-Here lies the Forest King, Ernst […] This exalted individual was the earliest among us to awaken his own will
-<br>
-<strong>Its Citizens, As One</strong>
-</blockquote>
-</div> 
-<br>
-
-<div style="text-align: justify"> 
-
-Uno de los primeros en “despertar” y conseguir su propia voluntad es el que luego sería el Rey de las máquinas del bosque. Este declara su independencia, se entiende que del resto de máquinas, al creer que su forma de vida en el bosque no es todo lo buena que pudiera ser ni para el ni para el resto de compañeros. Surge, por tanto, una semilla de rebelión. El objetivo que intenta es la independencia en si mismo, tanto como individual (parece) como grupal. Pero es cierto que esta independencia no lleva consigo un giro tan radical al no renegar de la guerra. Su grupo se forma más como una defensa aguerrida de su reinado independiente. Libertad, sí, pero entendida de nuevo bajo el mismo prisma: matar para no morir.
-
-</div>
-
-<br>
-<div style="text-align: right"> 
-<blockquote> 
-This cannot continue
-<br>
-<strong>Desert machines</strong>
-</blockquote>
-</div> 
-<br>
-
-<div style="text-align: justify"> 
-
-En otra zona nos podemos encontrar unas particulares y extrañas máquinas que intentan imitar desesperadamente a los humanos. No solo físicamente, poniéndose unas mascaras que nos recuerdan a los habitantes de la ciudad de Facade, si no en su intento por “comportarse de la misma manera”. Es el comienzo, y la primera vez que vemos que todo no va a ser tan simple como ver una máquina e inmediatamente pensar en matarla sin ningún tipo de duda moral por nuestra parte. Cuando los conocemos empezamos a ver que tienen cierto uso del lenguaje y, al menos, un propósito. En este caso, la reproducción, que no es más que la representación más presente y tangible (por visible) de la evolución (concepto algo más amplio y complejo). No solo vemos a las maquinas en ciertas posturas sexuales, si no que en plena batalla crean (de alguna manera escasamente descrita) la “máquina definitiva”: Adam. Para ser máquinas que intentan parecerse a los humanos han conseguido crear una máquina que es casi indistinguible de estos. Y siguiendo la tradición, Adam seguirá estando fascinado por los humanos y, como estos, acabará reflexionando más sobre la propia muerte que sobre la vida.
-
-</div>
-
-<br>
-<div style="text-align: right"> 
-<blockquote> 
-Oh, wHat fUN! Oh, whaT FUn!
-<br>
-<strong>Amusement Park machines</strong>
-</blockquote>
-</div> 
-<br>
-
-<div style="text-align: justify"> 
-
-En otro paso más, nos encontramos a las máquinas del parque de atracciones. Estas en principio no atacan si no son atacadas, por lo que nos estamos acercando a un comportamiento cada vez más alejado de la propia guerra. Siguen una estrategia más hedonista que prefiere escapar de los horrores de la guerra poniendo la mirada en el amor y la felicidad. Cuando les ayudamos a hacer cierto desfile nos enteramos un poco más de su filosofía de vida: El mundo está lleno de amor, tenemos que expresar más felicidad en nuestras vidas, tenemos que luchar por un mundo cada vez mejor. Y cerca, como una extensión más evolucionada de esta ramificación pseudopacífica (aunque algo simple), nos encontramos con el poblado de las máquinas. Nos encontramos a Pascal.
-
-</div>
-
-<br>
-<div style="text-align: right"> 
-<blockquote> 
-I taught the children what fear is
-<br>
-<strong>Pascal</strong>
-</blockquote>
-</div> 
-<br>
-
-<div style="text-align: justify">
-
-Pascal consigue lo que parece ser el último paso evolutivo de las máquinas en esta huida de la guerra: La paz. Forma una pequeña sociedad de máquinas que incluso permite la entrada y protección de ciertos androides. Educa a las máquinas en el valor de la paz y en la necesidad de pensar en las acciones que tomamos y en los efectos de estos. Para ello, les habla de lo que es el miedo, como mecanismo para frenar a las máquinas más pequeñas de tomar acciones que las puedan perjudicar más adelante. Ya sabemos que la guerra se fundamenta en parte en la deshumanización del contrario pero no es menos importante la autoconvicción como fuente de energía que pueda combatir al miedo del enfrentamiento. La consciencia sobre el mundo y su relación con el lleva aparejada la aparición del miedo (la posibilidad de un futuro no deseado), pero el miedo en si mismo también da forma a nuestra forma de relacionarnos con el mundo.
-
-Hay pocos miedos más importantes y relevantes en el mundo moderno que el de no encontrar un sentido a lo que hacemos. Cuanto más nos alejamos de dogmas simples y más nos acercamos a una comprensión completa de un todo en el que nuestra existencia es insignificante, más miedo empezamos a tener de que nuestro valor pierde sentido incluso para nosotros mismos.
-
-</div>
-
-<br>
-
-<img src="/assets/images/Nier3.jpg" style="width: 100%; height: 100%" hspace="20">
-
-<div style="text-align: justify">
-
-2B, la protagonista, en clara referencia a la cita shakesperiana, intenta reflexionar lo menos posible sobre el mundo que la rodea. No porque sea inconsciente, si no por miedo a sentir algo que no le está permitido. 2B, como nosotros, avanza esquivando toda serie de cambios, manteniendo una constante impasible e inalterable en donde las sensaciones no la alejen de su papel. La lucha interna contra esa estructura mental es uno de los papeles fundamentales de la obra y la evolución de su relación con 9S, la mejor muestra de esta lucha.
-
-Como decía al principio, tras acabar no podía dejar de pensar en la falta de un significado final. Tras acabar surgió una sensación parecida a la de un triste vacío, pero con el tiempo empiezo a creer que es temáticamente la mejor forma posible de expresar una realidad que necesita de nuestro esfuerzo continuo para ser entendida, disfrutada y vivida.
-
-¿Por qué prefiero una gran revelación? ¿Por qué requiero de la directa y fácil interacción por parte de un ser ajeno a mi o de una realidad que he sido incapaz de entender? Quizá por esa búsqueda constante de un Dios, sea lo que sea eso, por esa necesidad de encontrar a alguien que, aun siendo superior, crea que merezco su atención. Una acción recursiva en donde yo doto de sentido a alguien que me dota de sentido. Una forma humana de intentar crear una estructura por encima de nuestra simple existencia que nos acoja. Una forma de dotar de sentido a nuestra vida.
-
-</div>
-
-<br>
-
-<div style="text-align: center"> <strong>No</strong> </div> 
-
-<br>
-<div style="text-align: right"> 
-<blockquote> 
-I often think about the god who blessed us with this cryptic puzzle… and wonder if we’ll ever have the chance to kill him
-<br>
-<strong>2B</strong>
-</blockquote>
-</div> 
-<br>
-
-<div style="text-align: justify">
-
-Nier Automata intenta reflejar la necesidad de cargarnos a ese Dios. Desde la primera linea. La necesidad de clavarle una katana en el pecho y dispararle un misilazo en la frente. De superarnos como seres por nosotros mismos, de aprender a vivir en una realidad que no nos debe nada. De crear nuestro propio significado o aprender a vivir sin el. De entender que el único misterio es la propia vida que, como una bomba de relojería, está destinada a perecer y, con ella, llevarse por delante cualquier atisbo de sentido.
-
-Sea como fuera, vivimos rodeados de conflictos, rodeados de una realidad extraña en donde tenemos que estar continuamente encontrándonos a nosotros mismos, entendiéndonos y descifrando el misterio, probablemente indescifrable, de nuestra existencia, sin esperar una gran revelación final. Por el camino, quizá, lo único que nos queda es maravillarnos ante lo que nos rodea.
-
-</div>
+$B_{1}=P_{1} q_{1}-c q_{1}+BP q_{1}=P_{1} q_{1}-cn q_{1}$
+Donde $cn=c-BP$
 
 <br>
 <div style="text-align: right"> 
