@@ -84,8 +84,9 @@ Por ello, vamos a suponer que los beneficios son iguales a: El precio por consol
 <br>
 </div> 
 
-<div style="text-align: justify"> 
-$B_{1}=P_{1} q_{1}-c q_{1}+BP q_{1}=P_{1} q_{1}-cn q_{1}$
+<div style="text-align: center"> 
+$B_{1}=P_{1} \cdot q_{1}-c \cdot q_{1}+BP \cdot q_{1}=P_{1} \cdot q_{1}-cn \cdot q_{1}$
+<br>
 <br>
 Donde $cn=c-BP$
 </div> 
