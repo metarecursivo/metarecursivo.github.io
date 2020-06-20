@@ -78,6 +78,8 @@ En cuanto a ingresos, la cosa es algo más peliaguda. Aquí entramos en otra est
 
 Por ello, vamos a suponer que los beneficios son iguales a: El precio por consola vendida – los costes por consola vendida + Beneficios potenciales futuros por consola vendida:
 
+</div> 
+
 <div style="text-align: justify"> 
 $B_{1}=P_{1} q_{1}-c q_{1}+BP q_{1}=P_{1} q_{1}-cn q_{1}$
 Donde $cn=c-BP$
