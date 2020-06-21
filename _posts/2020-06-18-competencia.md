@@ -63,6 +63,7 @@ $\begin{equation}
 q_{1}=\frac{P_{1}^{-\sigma} \cdot \mu \cdot Y}{P_{1}^{1-\sigma}+P_{2}^{1-\sigma}} \\
 q_{2}=\frac{P_{2}^{-\sigma} \cdot \mu \cdot Y}{P_{1}^{1-\sigma}+P_{2}^{1-\sigma}}
 \end{equation}$
+<br>
 </div> 
 <div style="text-align: justify"> 
 Lo primero que voy a quitarme de en medio para hacer un poco más simple el análisis es el valor de sigma. Este parámetro mide precisamente el grado de diferenciación del producto. Va desde 1 hasta infinito. Es el valor de la elasticidad de demanda o del grado de homogeneidad del producto.
@@ -124,7 +125,6 @@ P_{2}=cn+\sqrt{cn^2+cn \cdot P_{1}}
 \end{equation}$
 </div> 
 <br>
-<br>
 <div style="text-align: justify"> 
 Lo primero que haremos es suponer que $cn$ es positivo: Los costes de producción son mayores que los posibles beneficios futuros derivados de los servicios extra. Si esto no fuera así, lo mejor sería vender la consola gratis en las puertas de los colegios (o de las oficinas) y esperar pacientemente a que con el paso del tiempo las carteras echen humo. Es básicamente la estrategia de los juegos free to play (fortnite, por poner un ejemplo), o sea que no es imposible en un sentido económico para ciertos productos, pero no creo que sea el caso para una consola (además de que aquí entra en juego otros conceptos como que vender una consola a un precio demasiado bajo podría incluso dar la idea de que es peor de lo que es, y tampoco creo que quieran eso).
 <br>
@@ -148,7 +148,6 @@ P_{1}=c \cdot \frac{1}{2} \cdot (3+\sqrt{17})
 \end{equation}$
 </div> 
 <br>
-<br>
 <div style="text-align: justify"> 
 Con ella, podemos ya despejar cuál será el precio de la que anuncie su precio después:
 <br>
@@ -159,7 +158,6 @@ $\begin{equation}
 P_{2}= c \cdot ( 1+ \sqrt{\frac{1}{2} (5+\sqrt{17} )} )
 \end{equation}$
 </div> 
-<br>
 <br>
 <div style="text-align: justify"> 
 Los números que aparecen son característicos de las simplificaciones que hemos hecho desde el principio y serían más generales (teóricos) si, por ejemplo, hubiéramos dejado la elasticidad como una variable desconocida. 
