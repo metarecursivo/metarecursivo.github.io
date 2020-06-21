@@ -105,11 +105,11 @@ $B_{1}=P_{1} \cdot q_{1}-c \cdot q_{1}+BP \cdot q_{1}=P_{1} \cdot q_{1}-cn \cdot
 $B_{2}=P_{2} \cdot q_{2}-c \cdot q_{2}+BP \cdot q_{2}=P_{2} \cdot q_{2}-cn \cdot q_{2}$
 <br>
 <br>
-Donde $cn=c-BP$
-</div> 
-<br>
-<br>
+</div>
 <div style="text-align: justify"> 
+Donde $cn=c-BP$
+<br>
+<br>
 Pues ya está. Determinada la función, buscamos el precio óptimo. En un sentido matemático lo que tenemos que hacer es buscar el punto de máximo beneficio que se consigue derivando e igualando a 0 dicha derivada (y luego comprobando que efectivamente se trata de un máximo). 
 <br>
 <br>
@@ -125,7 +125,7 @@ P_{2}=cn+\sqrt{cn^2+cn \cdot P_{1}}
 <br>
 <br>
 <div style="text-align: justify"> 
-Lo primero que haremos es suponer que cn es positivo: Los costes de producción son mayores que los posibles beneficios futuros derivados de los servicios extra. Si esto no fuera así, lo mejor sería vender la consola gratis en las puertas de los colegios (o de las oficinas) y esperar pacientemente a que con el paso del tiempo las carteras echen humo. Es básicamente la estrategia de los juegos free to play (fortnite, por poner un ejemplo), o sea que no es imposible en un sentido económico para ciertos productos, pero no creo que sea el caso para una consola (además de que aquí entra en juego otros conceptos como que vender una consola a un precio demasiado bajo podría incluso dar la idea de que es peor de lo que es, y tampoco creo que quieran eso).
+Lo primero que haremos es suponer que $cn$ es positivo: Los costes de producción son mayores que los posibles beneficios futuros derivados de los servicios extra. Si esto no fuera así, lo mejor sería vender la consola gratis en las puertas de los colegios (o de las oficinas) y esperar pacientemente a que con el paso del tiempo las carteras echen humo. Es básicamente la estrategia de los juegos free to play (fortnite, por poner un ejemplo), o sea que no es imposible en un sentido económico para ciertos productos, pero no creo que sea el caso para una consola (además de que aquí entra en juego otros conceptos como que vender una consola a un precio demasiado bajo podría incluso dar la idea de que es peor de lo que es, y tampoco creo que quieran eso).
 <br>
 <br>
 La idea con la que vamos a seguir es que hay una empresa que elegirá primero el precio, y una segunda que elegirá después su precio. Supondremos que la que elige segunda es la 2º empresa. Como vemos, en la función de precio óptimo, este depende del precio que haya elegido la primera empresa. Contra más alto sea el precio que haya escogido la primera empresa, más alto se podrá permitir la segunda empresa poner el suyo (la relación entre ambas variables es positiva). 
