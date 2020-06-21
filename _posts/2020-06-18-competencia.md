@@ -101,8 +101,10 @@ Por ello, vamos a suponer que los beneficios son iguales a: El precio por consol
 <br>
 </div> 
 <div style="text-align: center"> 
-$B_{1}=P_{1} \cdot q_{1}-c \cdot q_{1}+BP \cdot q_{1}=P_{1} \cdot q_{1}-cn \cdot q_{1} \\
-$B_{2}=P_{2} \cdot q_{2}-c \cdot q_{2}+BP \cdot q_{2}=P_{2} \cdot q_{2}-cn \cdot q_{2}$
+$\begin{equation}
+B_{1}=P_{1} \cdot q_{1}-c \cdot q_{1}+BP \cdot q_{1}=P_{1} \cdot q_{1}-cn \cdot q_{1} \\
+B_{2}=P_{2} \cdot q_{2}-c \cdot q_{2}+BP \cdot q_{2}=P_{2} \cdot q_{2}-cn \cdot q_{2}
+\end{equation}$
 <br>
 <br>
 </div>
