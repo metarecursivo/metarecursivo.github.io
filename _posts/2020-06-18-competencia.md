@@ -1,5 +1,5 @@
 ---
-title: ¿Quién elije primero?
+title: PS5 Vs Xbox Series X. Round 1: Price!
 featured: images/frac2.jpg
 layout: post
 ---
