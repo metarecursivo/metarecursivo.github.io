@@ -200,7 +200,7 @@ Otros factores que pueden afectar a la diferencia de precios real: Periféricos 
 Pero me voy a mojar, qué narices.
 <br>
 <br>
-Voy a suponer que la Xbox es algo más cara de producir. Quizá me equivoque, pero viendo que tiene algo más de teraflops y que su disco duro SSD es posible que sea más grande, voy a tirar con esa hipótesis. Con esto en mente
+Voy a suponer que la Xbox es algo más cara de producir. Quizá me equivoque, pero viendo que tiene algo más de teraflops y que su disco duro SSD es posible que sea más grande, voy a tirar con esa hipótesis. Con esto en mente:
 <br>
 <br>
 Si Sony presenta primero su precio y Xbox después: Los precios serán similares. Si tuviera que apostar algo más, diría 500 euros cada una. 
