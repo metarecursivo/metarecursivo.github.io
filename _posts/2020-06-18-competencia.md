@@ -59,6 +59,16 @@ Primero, vamos a utilizar unas funciones de demanda con las que he trabajado bas
 Supondremos que existen dos empresas (empresa 1 y empresa 2). La cantidad de demanda (q) de cada una de las empresas se puede describir de la siguiente manera:
 <br>
 <br>
+<div style="text-align: center"> 
+$\begin{equation}
+q_{1}=\frac{P_{1}^{-\sigma} \cdot \mu \cdot Y}{P_{1}^{1-\sigma}+P_{2}^{{1-\sigma} \\
+q_{2}=\frac{P_{2}^{-\sigma} \cdot \mu \cdot Y}{P_{1}^{1-\sigma}+P_{2}^{{1-\sigma}$
+<br>
+<br>
+Donde $cn=c-BP$
+</div> 
+<br>
+<br>
 Lo primero que voy a quitarme de en medio para hacer un poco más simple el análisis es el valor de sigma. Este parámetro mide precisamente el grado de diferenciación del producto. Va desde 1 hasta infinito. Es el valor de la elasticidad de demanda o del grado de homogeneidad del producto.
 <br>
 <br>
@@ -93,14 +103,14 @@ Por ello, vamos a suponer que los beneficios son iguales a: El precio por consol
 <br>
 <br>
 </div> 
-
 <div style="text-align: center"> 
 $B_{1}=P_{1} \cdot q_{1}-c \cdot q_{1}+BP \cdot q_{1}=P_{1} \cdot q_{1}-cn \cdot q_{1}$
 <br>
 <br>
 Donde $cn=c-BP$
 </div> 
-
+<br>
+<br>
 <div style="text-align: justify"> 
 Pues ya está. Determinada la función, buscamos el precio óptimo. En un sentido matemático lo que tenemos que hacer es buscar el punto de máximo beneficio que se consigue derivando e igualando a 0 dicha derivada (y luego comprobando que efectivamente se trata de un máximo). 
 <br>
