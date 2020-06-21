@@ -63,10 +63,8 @@ Supondremos que existen dos empresas (empresa 1 y empresa 2). La cantidad de dem
 $\begin{equation}
 q_{1}=\frac{P_{1}^{-\sigma} \cdot \mu \cdot Y}{P_{1}^{1-\sigma}+P_{2}^{{1-\sigma} \\
 q_{2}=\frac{P_{2}^{-\sigma} \cdot \mu \cdot Y}{P_{1}^{1-\sigma}+P_{2}^{{1-\sigma}$
-<br>
-<br>
-Donde $cn=c-BP$
 </div> 
+<div style="text-align: justify"> 
 <br>
 <br>
 Lo primero que voy a quitarme de en medio para hacer un poco más simple el análisis es el valor de sigma. Este parámetro mide precisamente el grado de diferenciación del producto. Va desde 1 hasta infinito. Es el valor de la elasticidad de demanda o del grado de homogeneidad del producto.
