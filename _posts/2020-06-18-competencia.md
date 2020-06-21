@@ -25,7 +25,6 @@ MathJax.Hub.Queue(function() {
 
 
 
-<br>
 
 <div style="text-align: justify"> 
 
