@@ -173,7 +173,7 @@ Desconocemos (yo al menos) los costes de producción y los beneficios futuros qu
 ¿Ocurrirá realmente esa diferencia de precios?
 <br>
 <br>
-No lo creo. Hay muchas más variables en juego: Las consolas no son exactamente igual de potentes, por lo que los costes no tienen por qué ser iguales. Los “beneficios potenciales” que mide cada empresa pueden ser diferentes (según el horizonte temporal o las estrategias que quiera seguir cada una). Vamos a relajar un poco esa consideración inicial de que los costes (o costes netos, eran iguales). Si lo hacemos la resolución del modelo es algo más compleja, pero es la puedo resumir en el siguiente gráfico:
+No lo creo. Hay muchas más variables en juego: Las consolas no son exactamente igual de potentes, por lo que los costes no tienen por qué ser iguales. Los “beneficios potenciales” que mide cada empresa pueden ser diferentes (según el horizonte temporal o las estrategias que quiera seguir cada una). Vamos a relajar un poco esa consideración inicial de que los costes (o costes netos) eran iguales). Si lo hacemos la resolución del modelo es algo más compleja, pero es la puedo resumir en el siguiente gráfico:
 <br>
 <br>
 <img src="/assets/images/cdif.jpg" style="width: 100%; height: 100%" hspace="20">
