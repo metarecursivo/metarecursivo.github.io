@@ -1,5 +1,5 @@
 ---
-title: PS5 Vs Xbox
+title: PS5 Vs Xbox. Round one: Price
 featured: images/frac2.jpg
 layout: post
 ---
