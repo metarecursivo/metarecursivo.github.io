@@ -1,5 +1,5 @@
 ---
-title: PS5 Vs Xbox Series X. Round 1: Price!
+title: PS5 Vs Xbox Series X. Round: Price!
 featured: images/frac2.jpg
 layout: post
 ---
