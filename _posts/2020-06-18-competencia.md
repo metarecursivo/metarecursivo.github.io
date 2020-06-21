@@ -175,13 +175,22 @@ Desconocemos (yo al menos) los costes de producción y los beneficios futuros qu
 ¿Ocurrirá realmente esa diferencia de precios?
 <br>
 <br>
-No lo creo. Hay muchas más variables en juego: Las consolas no son exactamente igual de potentes, por lo que los costes no tienen por qué ser iguales. Los “beneficios potenciales” que mide cada empresa pueden ser diferentes (según el horizonte temporal o las estrategias que quiera seguir cada una).
+No lo creo. Hay muchas más variables en juego: Las consolas no son exactamente igual de potentes, por lo que los costes no tienen por qué ser iguales. Los “beneficios potenciales” que mide cada empresa pueden ser diferentes (según el horizonte temporal o las estrategias que quiera seguir cada una). Vamos a relajar un poco esa consideración inicial de que los costes (o costes netos, eran iguales). Si lo hacemos la resolución del modelo es algo más compleja, pero es la puedo resumir en el siguiente gráfico:
 <br>
 <br>
-Más importante, la elasticidad no tiene por qué ser igual a 2. Si la elasticidad fuera más pequeña, la segunda empresa tendría tanto poder de monopolio (imaginad que toda la población es team-sony o team-xbox y tienen ya decidido cual comprar de antemano independientemente del precio) que podría poner un precio incluso mayor.  A su vez, si la elasticidad fuera altísima, con bajar un poco el precio respecto a tu competidor ya conseguiría atraer toda su demanda. Tenemos esta curva bastante bonita que nos indica que la variabilidad es importante en base a esta elasticidad. Aunque la diferencia no parece ser mayor del 30% incluso en condiciones ideales. 
+<img src="/assets/images/difc.jpg" style="width: 100%; height: 100%" hspace="20">
 <br>
 <br>
-Por suerte, según este estudio, parece que la elasticidad en el primer año de la generación es de 1.92, por lo que usar el valor de 2 no es tan descabellado como podría parecer.
+Lo que vemos aquí es en el eje horizontal la proporción de los costes netos de la empresa que elije primero respecto de la empresa que elije en segundo lugar. Por ejemplo, un valor de 0.8 en el eje horizontal implica que la que elije primero tiene una consola con un coste un 20% menor que la segunda consola. Un valor de 1.2 tendría un 20% en su coste.
+<br>
+<br>
+En el eje vertical vemos como repercute eso en la diferencia porcentual en el precio de la 2º empresa sobre la primera. Si los costes son iguales (valor en el eje horizontal de 1), la 2º empresa sacará su consola un 12% (lo mismo que hemos obtenido antes, por construcción). Ahora bien, vemos que si la 1º consola es más costosa de producir, la 2º se aprovechará con una mejor relativa en su precio mucho mayor. En cambio, si la primera consola fuera más barata de producir, el precio de las dos sería prácticamente similar. 
+<br>
+<br>
+Podemos también relajar la hipótesis de que la elasticidad sea igual a 2. Si la elasticidad fuera más pequeña, la segunda empresa tendría tanto poder de monopolio (imaginad que toda la población es team-sony o team-xbox y tienen ya decidido cual comprar de antemano independientemente del precio) que podría poner un precio incluso mayor.  A su vez, si la elasticidad fuera altísima, con bajar un poco el precio respecto a su competidor ya conseguiría atraer toda su demanda. Tenemos esta curva bastante bonita y no lineal que nos indica que la variabilidad de los posibles precios cambia bastante en base a esta elasticidad. Aunque la diferencia no parece ser mayor del 30% incluso en condiciones ideales. 
+<br>
+<br>
+Por suerte, según este estudio, parece que la elasticidad en el primer año de la generación es de 1.92, por lo que usar el valor de 2 no es tan descabellado como podría parecer. Diferentes estudios parecen arrojar diferentes datos, aunque creo que la elasticidad precio es posible que haya ido bajando con el tiempo (al hacerse el ocio videojueguil algo más estable y popular somos menos sensibles a que el precio nos deje sin catar las nuevas experiencias jugables). Con esto en mente, y suponiendo que la elasticidad no será menor que 2, la diferencia puede estar entre un 12% y algo más de un 30%. Si la elasticidad fuera muy alta y la primera consola saliera por 500 euros, la 2º podría llegar a salir por 350 euros. Pero creo que eso es poco realista. Las empresas no son tan homogéneas que necesitan rebajar mucho el precio para atraer a más clientes. Yo personalmente me creo más ese 12%-15% de potencial diferencia. 
 <br>
 <br>
 Otros factores que pueden afectar a la diferencia de precios real: Periféricos que acompañen a la consola, las dos versiones (con lector de discos y solo digital) que pueden empañar el “precio único” de cada consola, lo fuerte o débil que pueda ser la primera tanda de juegos que la acompañen (packs navideños…). Vamos, que no voy a poder adivinar el futuro. 
@@ -190,8 +199,15 @@ Otros factores que pueden afectar a la diferencia de precios real: Periféricos 
 Pero me voy a mojar, qué narices.
 <br>
 <br>
-Si Sony presenta primero su precio y Xbox después: Los precios serán similares.
+Voy a suponer que la Xbox es algo más cara de producir. Quizá me equivoque, pero viendo que tiene algo más de teraflops y que su disco duro SSD es posible que sea más grande, voy a tirar con esa hipótesis. Con esto en mente
 <br>
 <br>
-Si Xbox lo anuncia primero y Sony después, la PS5 será 60 euros más barata. 
+Si Sony presenta primero su precio y Xbox después: Los precios serán similares. Si tuviera que apostar algo más, diría 500 euros cada una. 
+<br>
+<br>
+Si Xbox lo anuncia primero y Sony después, la PS5 será 60 euros más barata. Si tuviera que apostar algo más, diría 550 euros la Xbox y 490 la Ps5.
+<br>
+<br>
+Así que con eso me quedo, en un par de meses la realidad caerá sobre este artículo como un mazo, echando por tierra cualquier atisbo de certera adivinación. Pero al menos ha sido divertido.
+
 </div> 
