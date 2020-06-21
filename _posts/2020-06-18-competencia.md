@@ -179,7 +179,7 @@ No lo creo. Hay muchas más variables en juego: Las consolas no son exactamente 
 <img src="/assets/images/cdif.jpg" style="width: 100%; height: 100%" hspace="20">
 <br>
 <br>
-Lo que vemos aquí es en el eje horizontal la proporción de los costes netos de la empresa que elije primero respecto de la empresa que elije en segundo lugar. Por ejemplo, un valor de 0.8 en el eje horizontal implica que la que elije primero tiene una consola con un coste un 20% menor que la segunda consola. Un valor de 1.2 tendría un 20% en su coste.
+Lo que vemos aquí es en el eje horizontal la proporción de los costes netos de la empresa que elije primero respecto de la empresa que elije en segundo lugar. Por ejemplo, un valor de 0.8 en el eje horizontal implica que la que elije primero tiene una consola con un coste un 20% menor que la segunda consola. Un valor de 1.2 tendría un 20% más en su coste.
 <br>
 <br>
 En el eje vertical vemos como repercute eso en la diferencia porcentual en el precio de la 2º empresa sobre la primera. Si los costes son iguales (valor en el eje horizontal de 1), la 2º empresa sacará su consola un 12% (lo mismo que hemos obtenido antes, por construcción). Ahora bien, vemos que si la 1º consola es más costosa de producir, la 2º se aprovechará con una mejor relativa en su precio mucho mayor. En cambio, si la primera consola fuera más barata de producir, el precio de las dos sería prácticamente similar. 
