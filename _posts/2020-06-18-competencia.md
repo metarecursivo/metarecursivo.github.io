@@ -61,8 +61,8 @@ Supondremos que existen dos empresas (empresa 1 y empresa 2). La cantidad de dem
 <br>
 <div style="text-align: center"> 
 $\begin{equation}
-q_{1}=\frac{P_{1}^{-\sigma} \cdot \mu \cdot Y}{P_{1}^{1-\sigma}+P_{2}^{{1-\sigma} \\
-q_{2}=\frac{P_{2}^{-\sigma} \cdot \mu \cdot Y}{P_{1}^{1-\sigma}+P_{2}^{{1-\sigma}$
+q_{1}=\frac{P_{1}^{-\sigma} \cdot \mu \cdot Y}{P_{1}^{1-\sigma}+P_{2}^{1-\sigma}} \\
+q_{2}=\frac{P_{2}^{-\sigma} \cdot \mu \cdot Y}{P_{1}^{1-\sigma}+P_{2}^{1-\sigma}}$
 </div> 
 <div style="text-align: justify"> 
 <br>
