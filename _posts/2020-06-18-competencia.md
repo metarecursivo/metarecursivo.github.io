@@ -1,5 +1,5 @@
 ---
-title: PS5 Vs Xbox Series X. Round: Price!
+title: ¿Quién elije primero?
 featured: images/frac2.jpg
 layout: post
 ---
@@ -64,7 +64,6 @@ $\begin{equation}
 q_{1}=\frac{P_{1}^{-\sigma} \cdot \mu \cdot Y}{P_{1}^{1-\sigma}+P_{2}^{1-\sigma}} \\
 q_{2}=\frac{P_{2}^{-\sigma} \cdot \mu \cdot Y}{P_{1}^{1-\sigma}+P_{2}^{1-\sigma}}
 \end{equation}$
-<br>
 </div> 
 <div style="text-align: justify"> 
 Lo primero que voy a quitarme de en medio para hacer un poco más simple el análisis es el valor de sigma. Este parámetro mide precisamente el grado de diferenciación del producto. Va desde 1 hasta infinito. Es el valor de la elasticidad de demanda o del grado de homogeneidad del producto.
