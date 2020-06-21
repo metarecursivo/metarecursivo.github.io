@@ -66,9 +66,7 @@ q_{2}=\frac{P_{2}^{-\sigma} \cdot \mu \cdot Y}{P_{1}^{1-\sigma}+P_{2}^{1-\sigma}
 \end{equation}$
 </div> 
 <div style="text-align: justify"> 
-<br>
-<br>
-AALo primero que voy a quitarme de en medio para hacer un poco más simple el análisis es el valor de sigma. Este parámetro mide precisamente el grado de diferenciación del producto. Va desde 1 hasta infinito. Es el valor de la elasticidad de demanda o del grado de homogeneidad del producto.
+Lo primero que voy a quitarme de en medio para hacer un poco más simple el análisis es el valor de sigma. Este parámetro mide precisamente el grado de diferenciación del producto. Va desde 1 hasta infinito. Es el valor de la elasticidad de demanda o del grado de homogeneidad del producto.
 <br>
 <br>
 Si el valor fuera muy alto, significaría que el producto es muy elástico y homogéneo, es decir, un consumidor que tenga que elegir entre las dos empresas elegirá siempre el producto más barato porque, por lo demás, le parecen idénticos.  
@@ -80,10 +78,10 @@ Si el valor fuera muy bajo, el producto sería menos elástico y, por tanto, má
 Por descontado, las empresas no solo eligen cuánto producir y a qué precio poner sus productos en las tiendas. La variable de la diferenciación es crucial para crear ese mercado menos elástico sobre el que poder poner unos precios más altos. En el tema que nos toca, las videoconsolas, dos claros ejemplos me vienen a la mente: La potencia y los exclusivos. Pueden diferenciarse intentando meterle más teraflops (la variable de moda en esta entrada a la nueva generación) y además Sony y Microsoft disponen de estudios propios y externos que hacen juegos específicos para sus consolas. En este contexto, comprar la más barata ya no es lo más importante, si lo que quieres es jugar a Bloodborne 2 o al nuevo Halo. 
 <br>
 <br>
-En lo que concierne al modelo, vamos a suponer para hacer las cuentas más simples que el valor es de 2. De esta forma los exponentes quedan más sencillos (después relajaré un poco este supuesto para que podamos ver algunas extensiones interesantes). En cualquier caso, por si a alguno le interesa, la conclusión más importante del parámetro sigma es que, contra más bajo sea, mayor poder monopolístico tendrán las empresas (más importante será el concepto de marca) y mayor serán los precios y los beneficios. Hasta Desatranques Jaen conoce bien el poder de la diferenciación del producto.
+En lo que concierne al modelo, vamos a suponer para hacer las cuentas más simples que el valor es de 2. De esta forma los exponentes quedan más sencillos (después relajaré un poco este supuesto para que podamos ver algunas extensiones interesantes). En cualquier caso, por si a alguno le interesa, la conclusión más importante del parámetro $\sigma$ es que, contra más bajo sea, mayor poder monopolístico tendrán las empresas (más importante será el concepto de marca) y mayor serán los precios y los beneficios. Hasta Desatranques Jaen conoce bien el poder de la diferenciación del producto.
 <br>
 <br>
-La otra parte que nos queda (mu Y) hace referencia al dinero que la gente se va a gastar en videoconsolas. Contra mayor sea la renta de la gente, o más % de su gasto quieran destinar a gastar en videoconsolas (que como es un “bien de lujo” crecerá también conforme crezca la renta), más consolas venderán. Algo bastante obvio que luego realmente no va afectar al precio óptimo. 
+La otra parte que nos queda ($\mu \cdot Y$) hace referencia al dinero que la gente se va a gastar en videoconsolas. Contra mayor sea la renta de la gente($Y$), o mayor sea el % de su gasto que quieran destinar a gastar en videoconsolas ($\mu$, que como es un “bien de lujo” crecerá también conforme crezca la renta), más consolas venderán. Algo bastante obvio que luego realmente no va afectar al precio óptimo. 
 <br>
 <br>
 Vale. ¿Qué hace una empresa para optimizar su producto? Coge su función de beneficio y la optimiza. Si el producto es homogéneo, el precio va a venir determinado por un mercado al que el producto de cada empresa le es indiferente, y lo que la empresa puede decidir es cuánta cantidad quiere producir y enviar al mercado. Si es diferenciado, como en este caso, la empresa tiene un cierto poder de decisión sobre su precio, permitiéndose poner un precio particular a su producto. Supondremos, pues es el origen del análisis de este artículo, que la empresa elije el precio que maximiza su beneficio.
@@ -117,6 +115,15 @@ Pues ya está. Determinada la función, buscamos el precio óptimo. En un sentid
 Si hacemos esto para la empresa 2 obtendremos lo siguiente: 
 <br>
 <br>
+</div> 
+<div style="text-align: center"> 
+$\begin{equation}
+P_{2}=cn+\sqrt{cn^2+cn \cdot P_{1}}
+\end{equation}
+</div> 
+<br>
+<br>
+<div style="text-align: justify"> 
 Lo primero que haremos es suponer que cn es positivo: Los costes de producción son mayores que los posibles beneficios futuros derivados de los servicios extra. Si esto no fuera así, lo mejor sería vender la consola gratis en las puertas de los colegios (o de las oficinas) y esperar pacientemente a que con el paso del tiempo las carteras echen humo. Es básicamente la estrategia de los juegos free to play (fortnite, por poner un ejemplo), o sea que no es imposible en un sentido económico para ciertos productos, pero no creo que sea el caso para una consola (además de que aquí entra en juego otros conceptos como que vender una consola a un precio demasiado bajo podría incluso dar la idea de que es peor de lo que es, y tampoco creo que quieran eso).
 <br>
 <br>
@@ -132,9 +139,27 @@ Por eso en microeconomía (o en teoría de juegos) los modelos se hacen un poco 
 Conociendo todo esto, sustituyendo el precio que pondrá la segunda empresa utilizando la función antes obtenida, el precio óptimo de la empresa que anuncie primero cuánto nos costará saltar de generación es el siguiente:
 <br>
 <br>
+</div> 
+<div style="text-align: center"> 
+$\begin{equation}
+P_{1}=c \cdot \frac{1}{2} \cdot \( 3+\sqrt{17} \)
+\end{equation}
+</div> 
+<br>
+<br>
+<div style="text-align: justify"> 
 Con ella, podemos ya despejar cuál será el precio de la que anuncie su precio después:
 <br>
 <br>
+</div> 
+<div style="text-align: center"> 
+$\begin{equation}
+P_{2}= c \cdot \( 1+ \sqrt{\frac{1}{2} \(5+\sqrt{17} \)} \)
+\end{equation}
+</div> 
+<br>
+<br>
+<div style="text-align: justify"> 
 Los números que aparecen son característicos de las simplificaciones que hemos hecho desde el principio y serían más generales (teóricos) si, por ejemplo, hubiéramos dejado la elasticidad como una variable desconocida. 
 <br>
 <br>
