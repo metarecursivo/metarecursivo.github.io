@@ -164,7 +164,7 @@ P_{2}= c \cdot ( 1+ \sqrt{\frac{1}{2} (5+\sqrt{17} )} )
 Los números que aparecen son característicos de las simplificaciones que hemos hecho desde el principio y serían más generales (teóricos) si, por ejemplo, hubiéramos dejado la elasticidad como una variable desconocida. 
 <br>
 <br>
-En cualquier caso, una vez conocidas las funciones, podemos comparar ambos precios. Y en este caso nos sale un resultado bastante claro: La segunda empresa pondrá un precio un 12% inferior a la primera. Si nos movemos en el entorno de un precio de entre 400 y 600 euros, esto implicaría que la segunda empresa debería aprovecharse de anunciar su precio después rebajándolo entre 50 y 70 euros. 
+En cualquier caso, una vez conocidas las funciones, podemos comparar ambos precios. Y en este caso nos sale un resultado bastante claro: $\frac{P_{2}}{P_{1}}=0.88$, esto es, la segunda empresa pondrá un precio un 12% inferior a la primera. Si nos movemos en el entorno de un precio de entre 400 y 600 euros, esto implicaría que la segunda empresa debería aprovecharse de anunciar su precio después rebajándolo entre 50 y 70 euros. 
 <br>
 <br>
 Desconocemos (yo al menos) los costes de producción y los beneficios futuros que tienen en cuenta para poder amortizar parte de esos costes, así que no podemos realmente adivinar el precio que Sony o Microsoft, que sí tienen dichos datos, elegirán. 
