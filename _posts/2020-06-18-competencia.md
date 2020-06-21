@@ -190,6 +190,9 @@ En el eje vertical vemos como repercute eso en la diferencia porcentual en el pr
 Podemos también relajar la hipótesis de que la elasticidad sea igual a 2. Si la elasticidad fuera más pequeña, la segunda empresa tendría tanto poder de monopolio (imaginad que toda la población es team-sony o team-xbox y tienen ya decidido cual comprar de antemano independientemente del precio) que podría poner un precio incluso mayor.  A su vez, si la elasticidad fuera altísima, con bajar un poco el precio respecto a su competidor ya conseguiría atraer toda su demanda. Tenemos esta curva bastante bonita y no lineal que nos indica que la variabilidad de los posibles precios cambia bastante en base a esta elasticidad. Aunque la diferencia no parece ser mayor del 30% incluso en condiciones ideales. 
 <br>
 <br>
+<img src="/assets/images/cdifel.jpg" style="width: 100%; height: 100%" hspace="20">
+<br>
+<br>
 Por suerte, según este estudio, parece que la elasticidad en el primer año de la generación es de 1.92, por lo que usar el valor de 2 no es tan descabellado como podría parecer. Diferentes estudios parecen arrojar diferentes datos, aunque creo que la elasticidad precio es posible que haya ido bajando con el tiempo (al hacerse el ocio videojueguil algo más estable y popular somos menos sensibles a que el precio nos deje sin catar las nuevas experiencias jugables). Con esto en mente, y suponiendo que la elasticidad no será menor que 2, la diferencia puede estar entre un 12% y algo más de un 30%. Si la elasticidad fuera muy alta y la primera consola saliera por 500 euros, la 2º podría llegar a salir por 350 euros. Pero creo que eso es poco realista. Las empresas no son tan homogéneas que necesitan rebajar mucho el precio para atraer a más clientes. Yo personalmente me creo más ese 12%-15% de potencial diferencia. 
 <br>
 <br>
