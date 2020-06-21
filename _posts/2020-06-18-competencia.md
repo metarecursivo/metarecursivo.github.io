@@ -1,6 +1,6 @@
 ---
 title: ¿Quién elije primero?
-featured: images/frac1.jpg
+featured: images/frac2.jpg
 layout: post
 ---
 
