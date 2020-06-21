@@ -120,7 +120,7 @@ Si hacemos esto para la empresa 2 obtendremos lo siguiente:
 <div style="text-align: center"> 
 $\begin{equation}
 P_{2}=cn+\sqrt{cn^2+cn \cdot P_{1}}
-\end{equation}&
+\end{equation}$
 </div> 
 <br>
 <br>
@@ -144,7 +144,7 @@ Conociendo todo esto, sustituyendo el precio que pondrá la segunda empresa util
 <div style="text-align: center"> 
 $\begin{equation}
 P_{1}=c \cdot \frac{1}{2} \cdot (3+\sqrt{17})
-\end{equation}&
+\end{equation}$
 </div> 
 <br>
 <br>
@@ -156,7 +156,7 @@ Con ella, podemos ya despejar cuál será el precio de la que anuncie su precio 
 <div style="text-align: center"> 
 $\begin{equation}
 P_{2}= c \cdot ( 1+ \sqrt{\frac{1}{2} (5+\sqrt{17} )} )
-\end{equation}&
+\end{equation}$
 </div> 
 <br>
 <br>
