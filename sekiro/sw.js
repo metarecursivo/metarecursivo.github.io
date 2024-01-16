@@ -1,10 +1,11 @@
 // The files you want to cache
-var CACHE_NAME = 'my-site-cache-v6';
+var CACHE_NAME = 'my-site-cache-v7';
 var urlsToCache = [
   '/',
   '/index.html',
   '/js/main.js',
   '/js/jquery.highlight.js',
+  '/css/main.css',
   // Add other URLs to cache here
 ];
 
