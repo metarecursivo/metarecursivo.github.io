@@ -2,6 +2,7 @@
 var CACHE_NAME = 'my-site-cache-v5';
 var urlsToCache = [
   '/',
+  '/index.html',
   '/js/main.js',
   '/js/jquery.highlight.js',
   // Add other URLs to cache here
